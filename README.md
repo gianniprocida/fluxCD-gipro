@@ -221,7 +221,7 @@ spec:
     name: example-app-1
 ```
 Those files are stored within the ./infra-repo/clusters/dev-cluster/base/ folder (assuming that you're located on the working tree).
-After that, the manifest files within the ./deploy directory in the  [GitLab repository for deployment](https://gitlab.com/axual/iris/flux-cd-playground/bitnami-kafka.git) will be applied to the namespace specified by targetNamespace in the cluster.
+After that, the manifest files within the ./deploy directory in the  [GitLab repository for deployment](https://github.com/gianniprocida/deploy-repo) will be applied to the namespace specified by targetNamespace in the cluster.
 
 ![diagram](fluxcd-setup.png)
 
