@@ -1,0 +1,13 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: example-app-2
+  namespace: my-games
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  url: https://github.com/gianniprocida/api-orchestrator-simple.git
+  secretRef:
+    name: info-auth-example-2
+

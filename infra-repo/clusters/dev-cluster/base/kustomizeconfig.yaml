@@ -1,0 +1,19 @@
+nameReference:
+- kind: ConfigMap
+  version: v1
+  fieldSpecs:
+  - path: spec/valuesFrom/name
+    kind: HelmRelease
+
+
+
+
+
+# apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+# kind: Kustomization
+# nameReference:
+# - kind: ConfigMap
+#   version: v1
+#   fieldSpecs:
+#   - path: spec/valuesFrom/name
+#     kind: HelmRelease
