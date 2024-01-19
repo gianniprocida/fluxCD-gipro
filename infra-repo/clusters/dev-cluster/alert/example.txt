@@ -1,6 +1,0 @@
-kubectl -n flux-system create secret generic slack-url \
---from-literal=address=https://hooks.slack.com/services/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
-
-kubectl -n flux-system create secret generic slack-url \
---namespace kafka-2 \
---from-literal=address=https://hooks.slack.com/services/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
